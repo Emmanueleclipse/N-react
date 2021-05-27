@@ -37,7 +37,6 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "proxy": "lcp --proxyUrl http://storkapidev-env.eba-5yhprdy3.us-east-2.elasticbeanstalk.com:80",
     "generate-splash": "cd public && npx pwa-asset-generator logo512.png ./assets -i ./index.html -h -r"
   },
   "eslintConfig": {
