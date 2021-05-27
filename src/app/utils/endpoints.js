@@ -1,5 +1,5 @@
-// const { REACT_APP_API_URL: API_URL } = process.env;
-const API_URL = 'http://localhost:8010/proxy';
+const { REACT_APP_API_URL: API_URL } = process.env;
+// const API_URL = 'http://localhost:8010/proxy';
 
 export default {
   login: `${API_URL}/api/login`,
